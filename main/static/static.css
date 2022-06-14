@@ -1,0 +1,128 @@
+.main {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 400px 15px 400px;
+}
+
+hr {
+    margin-top: 80px;
+    padding:15px;
+    color:darkgrey;
+}
+
+body {
+	background: linear-gradient(-45deg, #99c229, #39bb3f, #0226b6);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    /* color:rgb(33, 37, 41); */
+    color:white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.search-container {
+    background-image: linear-gradient(to right, rgb(0, 255, 98) , rgb(0, 140, 255));
+}
+
+body h1 {
+    padding-top:15px;
+    text-align: center;
+    /* color:rgb(33, 37, 41); */
+    color:white;
+ }
+ 
+div h2{
+    margin-bottom:35px;
+    /* color:rgb(33, 37, 41); */
+    color:white;
+    font-size: 42px;
+}
+
+#weather-main{
+    border-radius: 25px;
+    background-color: cadetblue;
+    position:relative;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    color:white;
+}
+
+.weather-container button{
+    text-align: center;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+}
+
+#weather-bottom{
+    font-family: Arial,sans-serif;
+    position:relative;
+    height: 275px;
+}
+
+div.info{
+    color:white;
+}
+
+p.desc {
+    text-align: center;
+    font-size:36px;
+    vertical-align: text-bottom;
+}
+
+.temp{
+    font-size: 72px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.img, .feels, .wind, .pressure, .humidity , div h2{
+    text-align: center;
+}
+
+#reset-primary{
+    margin-top: 30px;
+}
+
+.form-control:valid{
+    background-color:  cadetblue!important;
+    border-color: gray;
+}
+
+footer{
+    justify-content:center;
+    background-image: linear-gradient(to right, rgb(0, 255, 98) , rgb(0, 140, 255));
+    height: 100px;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+
+.weather-container{
+    margin-top:100px;
+    position: relative;
+}
+
+.container .text-center{
+    background-color: #1f3bad;
+}
+
+p.name{
+    margin-top:37px;
+    /* color:rgb(33, 37, 41); */
+    font-weight: bold;
+    color:white;
+}
